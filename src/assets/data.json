@@ -1,0 +1,62 @@
+{
+  "orders": [
+    {
+      "id": "0",
+      "number": "CVO-1432",
+      "from": "Paris",
+      "to": "London",
+      "price": 1400
+    },
+    {
+      "id": "1",
+      "number": "CVO-1433",
+      "from": "Madrid",
+      "to": "New York",
+      "price": 780
+    },
+    {
+      "id": "2",
+      "number": "CVO-1434",
+      "from": "Paris",
+      "to": "Tokyo",
+      "price": 2140
+    },
+    {
+      "id": "3",
+      "number": "CVO-1435",
+      "from": "Marseille",
+      "to": "Dublin",
+      "price": 610
+    },
+    {
+      "id": "4",
+      "number": "CVO-1436",
+      "from": "Berlin",
+      "to": "Los Angeles",
+      "price": 1100
+    }
+  ],
+  "drafts": [
+    {
+      "id": "0",
+      "name": "draft-1901",
+      "from": "Paris",
+      "to": "Toulouse",
+      "price": 340
+    },
+    {
+      "id": "1",
+      "name": "draft-2102",
+      "from": "Amsterdam",
+      "to": "Bruxelles",
+      "price": null
+    },
+    {
+      "id": "2",
+      "name": "draft-0203",
+      "from": "Lille",
+      "to": "London",
+      "price": null
+    }
+  ]
+}

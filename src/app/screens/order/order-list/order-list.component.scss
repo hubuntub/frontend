@@ -1,0 +1,12 @@
+@import "abstract/variables";
+
+.orders-list{
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0 $gutter-size/2;
+
+  &-header{
+    font-weight: bold;
+    color: $secondary-color;
+  }
+}
