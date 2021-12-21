@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import {Observable, of} from 'rxjs';
 import { map } from 'rxjs/operators';
 
 import { ApiService } from './api.service';
@@ -20,8 +20,6 @@ export class OrderService {
   }
 
   public getOrderById(orderId: string): Observable<any> {
-    return this.apiService.get().pipe(
-      map(res => res.orders.find(order => order.id === orderId))
-    );
+    return of({});
   }
 }
